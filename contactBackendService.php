@@ -20,11 +20,12 @@
 ##
 ## 6. clean up namespace references in style sheets
 
- function print_r_html ($arr) {
-        ?><pre><?
-        print_r($arr);
-        ?></pre><?
-}
+## no longer used, and seems to cause problems for some versions of php
+## function print_r_html ($arr) {
+##        ?><pre><?
+##        print_r($arr);
+##        ?></pre><?
+## }
 
 function maketemp ($s) {
 	global $temp_file_names ;
@@ -650,3 +651,5 @@ $style_sheet = '<xsl:stylesheet version="1.0"
 	return ;
 
 }
+
+?>
