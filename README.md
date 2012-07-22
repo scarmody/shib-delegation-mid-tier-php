@@ -11,4 +11,6 @@ It adds an additional element to the original SAML assertion (a url value at the
 
 2. Configure the SP at the mid tier (see notes at top of shibboleth2.xml)
 
+https://wiki.shibboleth.net/confluence/display/SHIB2/NativeSPAssertionExport
+
 3. COnfigure security at backend (tellShib to accept delegated assertion)
